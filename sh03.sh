@@ -16,9 +16,9 @@ read -p 'please input your filename: ' fileuser
 filename=${fileuser:-"filename"}
 
 #3. 开始利用date指令来取得所需要的档名了；
-date1=${date --date='2 days ago' +%Y%m%d}
-date2=${date --date='1 days ago' +%Y%m%d}
-date3=${date +%Y%m%d}
+date1=$(date --date='2 days ago' +%Y%m%d)
+date2=$(date --date='1 days ago' +%Y%m%d)
+date3=$(date +%Y%m%d)
 file1=${filename}${date1}
 file2=${filename}${date2}
 file3=${filename}${date3}
