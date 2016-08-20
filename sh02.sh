@@ -8,6 +8,6 @@ export PATH
 
 read -p 'input first name: ' firstname 
 read -p 'input last name: ' lastname
-echo -e "\n your full name is $firstname $lastname"
+echo -e '\n your full name is $firstname $lastname'
 
 exit 0
